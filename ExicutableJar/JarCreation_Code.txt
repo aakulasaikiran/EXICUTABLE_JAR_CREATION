@@ -1,0 +1,20 @@
+
+
+                                 Code: For Create Jar
+
+-----------------------------------------------------------------------------------------
+First create .java file and 
+Compile that code by
+-->javac JarDemo
+Then it create .class files 
+-------------------------------------------------------------------------------------------
+Then for create jar file type the given code
+
+jar -cvfm demo.jar manifest.MF JarDemo.class JarDemo$1.class
+
+=============================================================================================
+conditions:
+create manifest.MF for Exicution flow first JarDemo  next JarDemo$1.class
+in manifest.MF
+mondentory space after ':' 
+after generation of .class file ondly run the above code of create 'demo.jar'
